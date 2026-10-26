@@ -1,0 +1,1 @@
+A CPU study of Persian poetry attribution and known-item retrieval, with synthetic corruption analysis and a small OCR/ASR pilot.

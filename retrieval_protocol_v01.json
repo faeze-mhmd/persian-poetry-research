@@ -1,0 +1,59 @@
+{
+  "version": "retrieval_v0.1",
+  "date": "2026-10-25",
+  "status": "specified_before_retrieval_results",
+  "task": "known-item full-poem retrieval from a fixed 500-poem gallery using one deterministically selected couplet per query poem",
+  "gallery": "all 500 retained poems; index vocabulary/IDF fits entire gallery. This is a different task from held-out poem classification; no claim of unseen-poem attribution.",
+  "development": "100 classification-validation poems used for retrieval development queries",
+  "test": "100 classification-test poems used only as retrieval query identities after this protocol. Classification results already viewed; retrieval is an additional predeclared analysis, not independent replication.",
+  "query": "choose minimum SHA256 ASCII retrieval-query-v1|20261025|PoemId|CoupletIndex among actual two-verse source couplets; prepare canonical/shared-author-mask using unchanged poetry_core.py",
+  "methods": [
+    "exact_substring",
+    "word_tfidf_cosine",
+    "char_tfidf_cosine"
+  ],
+  "tfidf": "same shared TF-IDF/family settings as poetry_text_v0.2, fitted on full gallery; sparse cosine via L2-normalized vectors",
+  "ranking": "descending cosine then ascending numeric poem ID; no hits if query vector empty or score<=0; substring hits ascending poem ID; no threshold tuned",
+  "query_levels_percent": [
+    0,
+    2,
+    5,
+    10
+  ],
+  "development_noise_seeds": [
+    3101,
+    3102,
+    3103
+  ],
+  "test_noise_seeds": [
+    4101,
+    4102,
+    4103
+  ],
+  "noise": "unchanged poetry_core.corrupt; nested source-letter corruption; same query for each retrieval method",
+  "metrics": [
+    "Recall@1",
+    "Recall@5",
+    "Recall@10",
+    "MRR (full positive-score ranking; zero for no hit)",
+    "empty_query_fraction",
+    "measured CER/WER"
+  ],
+  "primary": "char minus word Recall@1 at 5%, averaged over three query corruption seeds",
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 20261104,
+    "unit": "query poem",
+    "scheme": "20 poems resampled within each author with replacement, same query/seed indices across methods",
+    "limits": "conditional on fixed gallery, selected couplets and these corruption draws; no unseen-item inference"
+  },
+  "resources": {
+    "threads": 1,
+    "max_bytes_new_download": 0,
+    "max_index_fit_seconds": 300,
+    "max_peak_memory_bytes": 1073741824
+  },
+  "test_gate": "behavior tests, index/source/config hashes, development results, frozen test query identities, exclusive test marker",
+  "rights": "local-only gallery and query text/index; output bundle contains IDs and metrics only",
+  "deferred": "Real OCR/ASR evaluation needs installed engines and independently transcribed paired samples; adapter readiness is not modality performance."
+}

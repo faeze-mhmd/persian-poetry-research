@@ -1,0 +1,377 @@
+{
+  "version": "poetry_text_v0.2",
+  "specified_on": "2026-10-25",
+  "status": "DESIGN_SPECIFIED_EXECUTION_GATES_PENDING",
+  "task": "closed-set poem-level attribution under synthetic text corruption; retrieval/OCR/ASR deferred",
+  "source": {
+    "repository": "ganjoor/ganjoor-data",
+    "revision": "86455ef602c55f64282ce9a0fba4b1084153b5a7",
+    "raw_redistribution": "not cleared; keep source cache local"
+  },
+  "author_categories": [
+    {
+      "poet_id": 2,
+      "name": "Hafez",
+      "path": "/hafez/ghazal"
+    },
+    {
+      "poet_id": 7,
+      "name": "Saadi",
+      "path": "/saadi/divan/ghazals"
+    },
+    {
+      "poet_id": 5,
+      "name": "Molana",
+      "path": "/moulavi/shams/ghazalsh"
+    },
+    {
+      "poet_id": 22,
+      "name": "Saeb",
+      "path": "/saeb/divan-saeb/ghazalkasa"
+    },
+    {
+      "poet_id": 43,
+      "name": "Bidel",
+      "path": "/bidel/ghazalbi"
+    }
+  ],
+  "acquisition": {
+    "target_final_poems_per_author": 100,
+    "max_new_files_per_author": 150,
+    "max_new_files_total": 750,
+    "max_total_bytes": 31457280,
+    "max_file_bytes": 524288,
+    "cap_failure": "stop and version the design before model fitting; never silently lower quality or target counts"
+  },
+  "eligibility": {
+    "positive_matching_ids": true,
+    "strictly_consecutive_verse_orders_from": 1,
+    "nonempty_verse_text": true,
+    "one_whole_poem_section": true,
+    "whole_poem_format": "Ghazal",
+    "couplets_min": 4,
+    "couplets_max": 30,
+    "two_verses_per_couplet": true,
+    "canonical_words_min": 40,
+    "canonical_words_max": 600,
+    "arabic_script_letter_fraction_min": 0.9,
+    "language_limit": "script filter is not proof of Persian-only content",
+    "text_source": "Verses.Text sorted by VOrder once; no metadata or section-text concatenation"
+  },
+  "development_exclusion": {
+    "audit_poems": [
+      2184,
+      2192,
+      2217,
+      2231,
+      2242,
+      2243,
+      2258,
+      2261,
+      2264,
+      2280,
+      2285,
+      2363,
+      2386,
+      2421,
+      2435,
+      2440,
+      2494,
+      2533,
+      2535,
+      2608,
+      2869,
+      3021,
+      3177,
+      3398,
+      3402,
+      3539,
+      3918,
+      3996,
+      4007,
+      4137,
+      4508,
+      4747,
+      4824,
+      4950,
+      4994,
+      5269,
+      5362,
+      5514,
+      5567,
+      5773,
+      9360,
+      9374,
+      9381,
+      9398,
+      9421,
+      9437,
+      9508,
+      9511,
+      9582,
+      9587,
+      9605,
+      9616,
+      9649,
+      9651,
+      9684,
+      9745,
+      9846,
+      9853,
+      9857,
+      9871,
+      40705,
+      40728,
+      40805,
+      40949,
+      41167,
+      41216,
+      41839,
+      41939,
+      41955,
+      42171,
+      42259,
+      42422,
+      43464,
+      43653,
+      43697,
+      43710,
+      44170,
+      44414,
+      44546,
+      44613,
+      52503,
+      52754,
+      53082,
+      53159,
+      53482,
+      54028,
+      55082,
+      55111,
+      55281,
+      56157,
+      56259,
+      56579,
+      56918,
+      57277,
+      57333,
+      57777,
+      57983,
+      58190,
+      58227,
+      58502
+    ],
+    "policy": "exclude every graph component touching an inspected audit poem from the final 500"
+  },
+  "grouping": {
+    "normalization": "audit-v1 from audit_core.mjs",
+    "edges": [
+      "identical normalized full poem",
+      "exact set-Jaccard of normalized character 5-grams >= 0.80",
+      "at least 2 distinct identical normalized couplets, each at least 6 whitespace tokens"
+    ],
+    "method": "exact deterministic checks; safe size-bound pruning allowed; no unrecorded approximate-neighbour substitution",
+    "mixed_author_components": "exclude entire component and record disputed/quoted linkage",
+    "representative": "one poem per remaining single-author component, lowest selection-priority hash",
+    "selection_priority": "SHA256 ASCII 'poetry-text-v1|20261023|PoetId|PoemId'; bytewise ascending digest, then numeric Id",
+    "author_selection": "first 100 component representatives per author; all rejection reasons saved",
+    "limitation": "heuristic graph does not prove no partial quotation or shared editorial provenance"
+  },
+  "split": {
+    "unit": "one poem representative per distinct retained component",
+    "train_per_author": 60,
+    "validation_per_author": 20,
+    "test_per_author": 20,
+    "priority": "SHA256 ASCII 'split-v1|20261024|PoetId|PoemId'; ascending digest then Id; first 60 train, next 20 validation, final 20 test",
+    "labels": [
+      2,
+      5,
+      7,
+      22,
+      43
+    ],
+    "train_total": 300,
+    "validation_total": 100,
+    "test_total": 100,
+    "no_validation_refit": true,
+    "full_poems_only": true
+  },
+  "preprocessing": {
+    "factors": {
+      "normalization": [
+        "minimal",
+        "canonical"
+      ],
+      "masking": [
+        "off",
+        "shared_author_aliases"
+      ]
+    },
+    "minimal": "join source verses with LF; normalize CRLF only; preserve marks, script variants, ZWNJ and punctuation",
+    "canonical": "NFKC; map U+064A/U+0649 to U+06CC and U+0643 to U+06A9; strip U+064B..065F, U+0670, U+06D6..06ED and U+0640; ZWNJ to space; collapse whitespace; preserve punctuation",
+    "aliases": [
+      "حافظ",
+      "سعدی",
+      "مولانا",
+      "مولوی",
+      "رومی",
+      "شمس",
+      "صائب",
+      "بیدل"
+    ],
+    "mask_token": "MASKEDAUTHOR",
+    "mask_matching": "scan maximal Unicode-category L/M runs in source text; canonicalize each run for exact alias lookup; replace matching source spans once with shared ASCII token before either normalization",
+    "mask_limit": "not all signatures; words may have ordinary meanings; positions/counts remain cues; same alias rule across classes; no label-specific replacement"
+  },
+  "features": {
+    "families": [
+      {
+        "id": "word",
+        "analyzer": "word",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "token_pattern": "(?u)\\b\\w+\\b"
+      },
+      {
+        "id": "char",
+        "analyzer": "char",
+        "ngram_range": [
+          3,
+          5
+        ]
+      }
+    ],
+    "shared": {
+      "lowercase": false,
+      "strip_accents": null,
+      "min_df": 2,
+      "max_df": 1,
+      "max_features": 50000,
+      "binary": false,
+      "norm": "l2",
+      "use_idf": true,
+      "smooth_idf": true,
+      "sublinear_tf": true,
+      "dtype": "float64"
+    },
+    "fit": "training only for vocabulary and IDF; validation/test transform only",
+    "capacity_limit": "equal caps do not imply equal feature counts or model capacity"
+  },
+  "classifier": {
+    "class": "LinearSVC",
+    "C": 1,
+    "penalty": "l2",
+    "loss": "squared_hinge",
+    "dual": "auto",
+    "tol": 0.0001,
+    "multi_class": "ovr",
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "class_weight": null,
+    "random_state": 20261025,
+    "max_iter": 10000
+  },
+  "majority": {
+    "class": "DummyClassifier",
+    "strategy": "most_frequent",
+    "fit": "training labels only"
+  },
+  "conditions": {
+    "clean_factorial_models": 8,
+    "majority_models": 1,
+    "primary_pair": {
+      "normalization": "canonical",
+      "masking": "shared_author_aliases",
+      "families": [
+        "word",
+        "char"
+      ]
+    },
+    "other_six": "clean-only secondary sensitivity comparisons",
+    "no_hyperparameter_search": true
+  },
+  "corruption": {
+    "scope": "primary pair plus majority only; synthetic stress after canonical normalization/masking, before vectorization",
+    "levels": [
+      0,
+      0.02,
+      0.05,
+      0.1
+    ],
+    "primary_level": 0.05,
+    "development_seeds": [
+      1101,
+      1102,
+      1103
+    ],
+    "test_seeds": [
+      2101,
+      2102,
+      2103
+    ],
+    "alphabet": "اآبپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی",
+    "eligible": "original character in the listed alphabet; shared ASCII mask token, whitespace and punctuation protected",
+    "seed": "PCG64 default_rng(int.from_bytes(SHA256 ASCII 'noise-v1|Seed|PoemId' digest first 8 bytes,'big'))",
+    "selection": "one permutation of eligible source positions per poem/seed; k=(integer_percent*N+50)//100 with integer_percent in [0,2,5,10]; first k positions gives nested severity",
+    "operations": "one stable independent draw per source position, insertion/deletion/substitution each probability 1/3; insertion before original; inserted alphabet letter uniform; substitution uniform excluding original",
+    "pairing": "identical generated query string for both primary feature models and majority; no noisy-data fitting",
+    "measured_error": "CER=Levenshtein/clean codepoint count; WER=token Levenshtein/clean whitespace-token count; remove MASKEDAUTHOR from both strings before measuring; report actual edits and errors",
+    "limitation": "nominal selected-letter rate is not actual CER and is not an OCR/ASR benchmark"
+  },
+  "metrics": {
+    "primary": "DeltaDrop = (word clean macro-F1 - mean word macro-F1 at 0.05 across 3 noise seeds) - (char clean macro-F1 - mean char macro-F1 at 0.05 across 3 noise seeds); positive means char lost less F1",
+    "report": [
+      "all 9 clean readouts",
+      "primary pair plus majority at each nonzero rate/seed",
+      "clean and noisy macro-F1",
+      "accuracy",
+      "per-author precision/recall/F1/confusion",
+      "actual CER/WER",
+      "runtime",
+      "feature count",
+      "iterations and warnings"
+    ],
+    "bootstrap": {
+      "replicates": 2000,
+      "seed": 20261028,
+      "unit": "poem; one representative per component",
+      "scheme": "stratified resampling of 20 test poems within each author with replacement; same indices across models/conditions/seeds",
+      "interval": "2.5/97.5 percentile for primary DeltaDrop",
+      "limits": "conditional on this fixed split and models; not training-seed or unseen-author uncertainty; no p-values or universal superiority claim"
+    }
+  },
+  "execution": {
+    "device": "CPU",
+    "threads": 1,
+    "new_packages": "none planned",
+    "installed_sklearn_checked": "1.9.0",
+    "observed_python": "3.11.4",
+    "preliminary_gate": "time and memory benchmark only on development/audit material, no final test performance; do not treat it as an independent result",
+    "max_acquisition_and_grouping_seconds": 1800,
+    "max_all_model_fit_seconds": 900,
+    "max_python_peak_working_set_bytes": 1073741824,
+    "warnings": "preserve non-convergence; no silent iteration increase or model dropping",
+    "failure": "stop, keep artifacts and log reason; revise/version before test if needed"
+  },
+  "gates_before_test": [
+    "rights/provenance scope recorded without raw redistribution",
+    "complete corpus eligibility/rejection manifest",
+    "duplicate graph and development exclusion verified",
+    "300/100/100 IDs and labels frozen",
+    "normalizer/mask/noise/split/metric guard tests passed",
+    "source/config/environment/tensor-free model fingerprints recorded",
+    "all 9 clean validation readouts and primary noisy validation readouts saved",
+    "separate final evaluation plan plus exclusive per-output start marker"
+  ],
+  "future_scope": "indexed retrieval and real OCR/ASR require separate protocols; no implementation, acquisition, training or test evaluation authorized by writing this file",
+  "attribution": "Maintainer: Faeze Mohammadi",
+  "parameter_types": {
+    "max_df": "float 1.0 (not integer 1)",
+    "min_df": "integer 2",
+    "C": "float 1.0",
+    "dtype": "numpy.float64"
+  },
+  "change_reason": "User requested a faster compact completion. Reduce sample size before any model fit or validation/test outcome inspection; retain methods and report wider uncertainty."
+}

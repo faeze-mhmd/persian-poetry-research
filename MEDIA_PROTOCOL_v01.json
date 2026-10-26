@@ -1,0 +1,37 @@
+{
+  "version": "media_v0.1",
+  "status": "specified_before_engine_outcomes",
+  "date": "2026-10-25",
+  "objective": "bounded engineering pilot of actual OCR and ASR feeding the fixed known-item index; no retraining or condition tuning",
+  "ocr": {
+    "samples": "20 previously frozen couplet IDs, 4 per author",
+    "conditions": [
+      "clean rendering",
+      "downsample2x plus GaussianBlur1.0 plus rotation2degrees"
+    ],
+    "engine": "tesserocr2.12.0 bundled Tesseract + official tessdata_fast fas",
+    "render": "Windows Tahoma at size36, width1600; shrink font deterministically if text width>1520, minimum20; two right-aligned source verses, reshaped/bidi if raqm unavailable; canonical text without author masking",
+    "reference": "programmatic canonical source text, not human-labelled photographs"
+  },
+  "asr": {
+    "candidate_selection": "lowest numeric poem ID per author among the 20 frozen IDs; choose smallest recitation numeric ID with inSyncWithText true, no listed mistakes, mp3<=2MiB. If missing metadata/timing then log a skip, never replace after transcription outcomes.",
+    "segment": "Use official /api/audio/verses/{recitation_id} audioStartMilliseconds timestamps directly (legacy XML offset ambiguity avoided). Frozen query couplet from its first verse start through next verse after couplet start, with 0.25s margins; duration <=60s. No boundary tuning after ASR.",
+    "engine": "vosk0.3.45, official vosk-model-small-fa-0.42, CPU, no constrained grammar or hints",
+    "references": "source poem and upstream per-verse timing; upstream alignment not independently human verified; exploratory results only"
+  },
+  "metrics": [
+    "canonical CER/WER without author masking",
+    "fixed character-index target rank",
+    "Recall@1 within each condition",
+    "actual runtime and memory"
+  ],
+  "resources": {
+    "download_cap_bytes": 167772160,
+    "media_max_total_seconds": 900,
+    "no_paid_services": true,
+    "no_global_install": true
+  },
+  "limits": "Rendered OCR is synthetic imagery; small audio pilot is not a held-out ASR benchmark and may contain upstream alignment mismatch. Text classification and retrieval frozen results are preserved.",
+  "scope": "local-only raw images/audio/weights/runtime; export code, hashes, IDs and aggregate outcomes only",
+  "pre_execution_clarification": "Official public Swagger and per-verse API inspected before engine output; legacy XML is archived but is not used for timing."
+}

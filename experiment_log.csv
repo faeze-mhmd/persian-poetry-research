@@ -1,0 +1,14 @@
+run_id,stage,device,seconds,metrics_or_features,evidence,git_commit
+text-v02-word__minimal__unmasked,fit,CPU/1thread,0.5009434999956284,6769,model_registry.json,not committed
+text-v02-word__minimal__masked,fit,CPU/1thread,0.609953500010306,6757,model_registry.json,not committed
+text-v02-word__canonical__unmasked,fit,CPU/1thread,0.5437549999915063,6558,model_registry.json,not committed
+text-v02-word__canonical__masked,fit,CPU/1thread,0.3335077000083402,6547,model_registry.json,not committed
+text-v02-char__minimal__unmasked,fit,CPU/1thread,1.758062399982009,50000,model_registry.json,not committed
+text-v02-char__minimal__masked,fit,CPU/1thread,1.7216857000021264,50000,model_registry.json,not committed
+text-v02-char__canonical__unmasked,fit,CPU/1thread,1.5193061000027228,46098,model_registry.json,not committed
+text-v02-char__canonical__masked,fit,CPU/1thread,1.371160200011218,46147,model_registry.json,not committed
+text-v02-majority,fit,CPU/1thread,0.0026535000069998205,0,model_registry.json,not committed
+text-v02-final,test once,CPU/1thread,6.158375700004399,"{""delta_drop"": -0.006727072824633917, ""ci95_percentile"": [-0.04338603750927182, 0.024867528367426985], ""replicates"": 2000, ""seed"": 20261028, ""conditional_on_fixed_split_models"": true}",test_results.json,not committed
+retrieval-v01-word,gallery index fit,CPU/1thread,0.4341847999894526,10708,RETRIEVAL_FREEZE.json,not committed
+retrieval-v01-char,gallery index fit,CPU/1thread,1.5344687000033446,50000,RETRIEVAL_FREEZE.json,not committed
+retrieval-v01-final,test once,CPU/1thread,3.6952417000138666,"{""char_minus_word_recall_at_1_5pct"": 0.003333333333333333, ""ci95_percentile"": [0.0, 0.01], ""replicates"": 2000, ""seed"": 20261104, ""conditional_on_fixed_gallery_and_queries"": true}",retrieval_test.json,not committed

@@ -1,0 +1,26 @@
+{
+  "assets": [
+    {
+      "asset": "srt3.5.3 pure Python module",
+      "url": "https://files.pythonhosted.org/packages/66/b7/4a1bc231e0681ebf339337b0cd05b91dc6a0d701fa852bb812e244b7a030/srt-3.5.3.tar.gz",
+      "bytes": 28296,
+      "sha256": "4884315043a4f0740fd1f878ed6caa376ac06d70e135f306a6dc44632eed0cc0",
+      "extraction": "only srt.py; no setup code run"
+    },
+    {
+      "asset": "fas.traineddata",
+      "revision": "87416418657359cb625c412a48b6e1d6d41c29bd",
+      "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/87416418657359cb625c412a48b6e1d6d41c29bd/fas.traineddata",
+      "bytes": 431500,
+      "sha256": "db1c0a91208aff00d3cf1ed2c1d23f76419afd5f024688b4f71adc3f2ce4a505"
+    },
+    {
+      "asset": "vosk-model-small-fa-0.42",
+      "url": "https://alphacephei.com/vosk/models/vosk-model-small-fa-0.42.zip",
+      "bytes": 53431220,
+      "sha256": "977cb5faa538f3a835ccfd35f5f6d8284b5c450b89c700b9bd4736b66536ad46",
+      "license": "Apache2.0 per official model page"
+    }
+  ],
+  "aggregate_model_wheel_bytes": 91215529
+}

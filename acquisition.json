@@ -1,0 +1,810 @@
+{
+  "date": "2026-10-22",
+  "repository": "ganjoor/ganjoor-data",
+  "revision": "86455ef602c55f64282ce9a0fba4b1084153b5a7",
+  "selection_seed": 20261022,
+  "selected": 100,
+  "files": [
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2184,
+      "path": "poets/hafez/ghazal/sh55.json",
+      "bytes": 10972,
+      "sha256": "20a98706633d56bf9cf088409906a9313ccba801eacc71655d0f9f80b7a85fcd"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2192,
+      "path": "poets/hafez/ghazal/sh63.json",
+      "bytes": 9291,
+      "sha256": "677eadce9f52000c077b8fbaf989055fc8819ddb3fd5077e93b5454c0a115888"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2217,
+      "path": "poets/hafez/ghazal/sh88.json",
+      "bytes": 15682,
+      "sha256": "05339c919ec941d1b52eaf483ffdfe79f731c9273e619182cbec23b886910fec"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2231,
+      "path": "poets/hafez/ghazal/sh102.json",
+      "bytes": 15264,
+      "sha256": "9f13294b78083e5eb57c0952bd9e90cc2fef5dbb9352a5305ada885286fdc996"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2242,
+      "path": "poets/hafez/ghazal/sh113.json",
+      "bytes": 10067,
+      "sha256": "ce4f683eed04cecaee54061eb8769d7beeab73b06f95f9ea6d115f6ae365af75"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2243,
+      "path": "poets/hafez/ghazal/sh114.json",
+      "bytes": 13408,
+      "sha256": "d2ce7ff70b7991bf85da47bada5a8e26963b03e622e21054a2f5619289301bd6"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2258,
+      "path": "poets/hafez/ghazal/sh129.json",
+      "bytes": 11735,
+      "sha256": "d9697f12a6a474d93bd305ae8f403a08efbb646c733d66b6a253660936f50a3a"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2261,
+      "path": "poets/hafez/ghazal/sh132.json",
+      "bytes": 13003,
+      "sha256": "b2fef18935a7d0edddc76b32533a48d9cbf237f6ba65ac1885d0ff3ead7fea6f"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2264,
+      "path": "poets/hafez/ghazal/sh135.json",
+      "bytes": 12565,
+      "sha256": "764f53f6dbfb9a86542bb6ad207d3a4a29f55c35c28ccd081aedcc38215db62d"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2280,
+      "path": "poets/hafez/ghazal/sh151.json",
+      "bytes": 10444,
+      "sha256": "d68340541ba240c5ac86f5d5fa6270f18eadf6501a30dae4f7d1b0ec593a4ed0"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2285,
+      "path": "poets/hafez/ghazal/sh156.json",
+      "bytes": 15484,
+      "sha256": "a906d9f9fd35da23feadf053c4542582dadd961ea9a846101bc70d4056bead66"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2363,
+      "path": "poets/hafez/ghazal/sh234.json",
+      "bytes": 13110,
+      "sha256": "310c485f6b77163d68459c913cf8f53bd40c879c0293b68cddddc008ddd65b8e"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2386,
+      "path": "poets/hafez/ghazal/sh257.json",
+      "bytes": 15775,
+      "sha256": "511c645270a7b4387725bba0a8785b1935d8169931749ee031bf66629c4c25b3"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2421,
+      "path": "poets/hafez/ghazal/sh292.json",
+      "bytes": 10835,
+      "sha256": "2e4052406af3a8420b20d08d0344b90daf22446d316bb2cc250ce51d99cd1138"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2435,
+      "path": "poets/hafez/ghazal/sh306.json",
+      "bytes": 13227,
+      "sha256": "2ab18d35c25c23ed9ef108ae296f908957bf8f8540bd78a3ad3e87c54bc5bf79"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2440,
+      "path": "poets/hafez/ghazal/sh311.json",
+      "bytes": 9435,
+      "sha256": "f758170e3ca3c5c3de0e743d7b319b0a8de1f513d373e7778207e21b240b2056"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2494,
+      "path": "poets/hafez/ghazal/sh365.json",
+      "bytes": 13268,
+      "sha256": "67502d272df37d2fdc26c1252a30bdc0ac4820e40d1ccd65a5b3abf6ccaa2170"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2533,
+      "path": "poets/hafez/ghazal/sh404.json",
+      "bytes": 11397,
+      "sha256": "b1de93cd2967a43a5941848e06e9eba941387331514d4e49955a6b863f380cf2"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2535,
+      "path": "poets/hafez/ghazal/sh406.json",
+      "bytes": 12187,
+      "sha256": "12022fed3c33f209285374fd990189643cb6d1d4bbf14887bbf32059e989745b"
+    },
+    {
+      "poet_id": 2,
+      "category_id": 24,
+      "id": 2608,
+      "path": "poets/hafez/ghazal/sh479.json",
+      "bytes": 11269,
+      "sha256": "ebc2cd84dfe51ada9c1b672ac06aefb75dfccb2716364091e073f81fb50c4b0d"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9360,
+      "path": "poets/saadi/divan/ghazals/sh38.json",
+      "bytes": 12068,
+      "sha256": "fe25c4d12114b145b70e40247604f61a00593c7a39149a1b204a691378d7ff16"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9374,
+      "path": "poets/saadi/divan/ghazals/sh52.json",
+      "bytes": 58211,
+      "sha256": "ee6db75a06c8e0a6fa022960d6a40c1246760d64b68e390d78ca9f0238c94db9"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9381,
+      "path": "poets/saadi/divan/ghazals/sh59.json",
+      "bytes": 18861,
+      "sha256": "7bb32e594b188493450fd7adc4a7247bd04b4273930a7ea2538de0e346c3867f"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9398,
+      "path": "poets/saadi/divan/ghazals/sh76.json",
+      "bytes": 16738,
+      "sha256": "f97145724c9dd8e0d7fcaad7f7b4e3bcd01fd6b75c79a7ef91bc6ac137a5e2b9"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9421,
+      "path": "poets/saadi/divan/ghazals/sh99.json",
+      "bytes": 11740,
+      "sha256": "8e851160b5920efd1196dc805ce955b89511b1fac9e24562164453df9de65e93"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9437,
+      "path": "poets/saadi/divan/ghazals/sh115.json",
+      "bytes": 16807,
+      "sha256": "e86ae8476aceb03cb0cf03a5a3ceac17f25a32985dc727f78ac8654f3b16c33c"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9508,
+      "path": "poets/saadi/divan/ghazals/sh186.json",
+      "bytes": 9227,
+      "sha256": "8140acfcbfe01dd42ec22929023d0b2b6efd1e3ad0fad54c11d824a4d34c7dd9"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9511,
+      "path": "poets/saadi/divan/ghazals/sh189.json",
+      "bytes": 12809,
+      "sha256": "21cc56054d2ef874b677e15687ec7d885529837870588a3ab952db8c12a8c1e2"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9582,
+      "path": "poets/saadi/divan/ghazals/sh260.json",
+      "bytes": 13065,
+      "sha256": "4a99a5132a2f0fbb6fd359a854b4b5bcf4e2bcc57d96ae721c974eb065eb41a6"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9587,
+      "path": "poets/saadi/divan/ghazals/sh265.json",
+      "bytes": 14258,
+      "sha256": "6744a516a897e555022a86b35f55bb15052c60749c9ef09c4338887fe4db2f31"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9605,
+      "path": "poets/saadi/divan/ghazals/sh283.json",
+      "bytes": 10756,
+      "sha256": "3825e3cfac0c30f87778c0a857aa2062db03d7642ba3d5812151ac7de04e80f1"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9616,
+      "path": "poets/saadi/divan/ghazals/sh294.json",
+      "bytes": 13748,
+      "sha256": "4a6965daf7c04b677f6a6274e0717a88d78181c0cacd9d3c0fae6b2238d983ec"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9649,
+      "path": "poets/saadi/divan/ghazals/sh327.json",
+      "bytes": 15671,
+      "sha256": "a66aa8222bce10e334014fb4ef3d708297b26417f1a94993b744728854b89101"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9651,
+      "path": "poets/saadi/divan/ghazals/sh329.json",
+      "bytes": 14334,
+      "sha256": "275a2c528507bba9411824f733a08960f687f765a3646227616773dfa30c94c7"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9684,
+      "path": "poets/saadi/divan/ghazals/sh362.json",
+      "bytes": 12831,
+      "sha256": "5c4b7e06e72081626a01cc4f4699ca3c04ea46f2816658aa271aa7257ea2d0c2"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9745,
+      "path": "poets/saadi/divan/ghazals/sh423.json",
+      "bytes": 12641,
+      "sha256": "b032d4419907410a1272c15fdc8d8af4b242e24690de5d944178af3fdf67889d"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9846,
+      "path": "poets/saadi/divan/ghazals/sh524.json",
+      "bytes": 12369,
+      "sha256": "04cbc37f1804285f4b864f2c58bc542fc306c3dabad3266f8f051a0a03085466"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9853,
+      "path": "poets/saadi/divan/ghazals/sh531.json",
+      "bytes": 13354,
+      "sha256": "c4c2c9f67edcd50ac5cd01bdab256ad5621b63e3c38b606653bb8729624166b9"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9857,
+      "path": "poets/saadi/divan/ghazals/sh535.json",
+      "bytes": 10600,
+      "sha256": "5b733ff2465e07e66a3e1042cc19146d8932105d4944c793bd63cc15fec152d5"
+    },
+    {
+      "poet_id": 7,
+      "category_id": 120,
+      "id": 9871,
+      "path": "poets/saadi/divan/ghazals/sh549.json",
+      "bytes": 13205,
+      "sha256": "616b58f0d466a097f7ba74a7e683fe20d8a6c647c21e9a37e82a0bfc2eac426b"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 2869,
+      "path": "poets/moulavi/shams/ghazalsh/sh245.json",
+      "bytes": 12076,
+      "sha256": "730e9a3d20200f2e36d125349ed5a221d8657751304c4aebec2be78aeb12f740"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 3021,
+      "path": "poets/moulavi/shams/ghazalsh/sh397.json",
+      "bytes": 7413,
+      "sha256": "6ba2c76db89264424e8feb8a2f719ef16e2bc6b628fe34c9dcad9a57b9de1989"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 3177,
+      "path": "poets/moulavi/shams/ghazalsh/sh553.json",
+      "bytes": 16963,
+      "sha256": "dc170db87f631a9befdc2b6fa671eec887aa4708a8ace12f73e498143c87a95b"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 3398,
+      "path": "poets/moulavi/shams/ghazalsh/sh774.json",
+      "bytes": 12336,
+      "sha256": "1938d0f83159dc2994f4e0d630509754b1b2050061fb5723e8b6f039684b8475"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 3402,
+      "path": "poets/moulavi/shams/ghazalsh/sh778.json",
+      "bytes": 14686,
+      "sha256": "9418483dab8536d4454f120a1840e206a4bf2d647b1d9aa3a853c7b619718283"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 3539,
+      "path": "poets/moulavi/shams/ghazalsh/sh915.json",
+      "bytes": 12913,
+      "sha256": "be4b90aec01c770080e1d42b1d602f943707b1f7219f0bf97e7b6a1b76f0226e"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 3918,
+      "path": "poets/moulavi/shams/ghazalsh/sh1294.json",
+      "bytes": 11463,
+      "sha256": "38967bab4817a984da1668fb0d433399d7f8c818e7d2b015043cb1f1c5b8ad0a"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 3996,
+      "path": "poets/moulavi/shams/ghazalsh/sh1372.json",
+      "bytes": 30176,
+      "sha256": "88f05bd5ae788eaa35fb2a5f60cd76b45a3a0a6338450bf321e2bfb683f0dabe"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 4007,
+      "path": "poets/moulavi/shams/ghazalsh/sh1383.json",
+      "bytes": 15241,
+      "sha256": "01f5e2636a1f71809176b3d5ed667eef3419e44280853f5068327690f3c69437"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 4137,
+      "path": "poets/moulavi/shams/ghazalsh/sh1513.json",
+      "bytes": 13354,
+      "sha256": "f0dec1f956aa7fc53efbe8a889741538aa871e06aaf9881ecceeb669025ba13f"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 4508,
+      "path": "poets/moulavi/shams/ghazalsh/sh1884.json",
+      "bytes": 9692,
+      "sha256": "1f634d551cc98da7994fc0c41730ce9fb28a306bf2950214b38f89bfc375d70d"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 4747,
+      "path": "poets/moulavi/shams/ghazalsh/sh2123.json",
+      "bytes": 8942,
+      "sha256": "bc3c2a63bfbf7c81e5823f0d825f5b01fae2c3ce1214ca3ecae0d7533123bceb"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 4824,
+      "path": "poets/moulavi/shams/ghazalsh/sh2200.json",
+      "bytes": 9501,
+      "sha256": "fefae5c76c3111154c2d1cbfa4202d87e1c3adaac35420b3a073f779d7f90d49"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 4950,
+      "path": "poets/moulavi/shams/ghazalsh/sh2326.json",
+      "bytes": 9401,
+      "sha256": "bb7e603aa08a5f19570a00c51cf17ac4d2f1beb258b5aa55837243c69ba3eab6"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 4994,
+      "path": "poets/moulavi/shams/ghazalsh/sh2370.json",
+      "bytes": 19539,
+      "sha256": "de7377db8cb36e5a53af5a25afba6195df9f01ae5f9409c3da5ae01a215ae25e"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 5269,
+      "path": "poets/moulavi/shams/ghazalsh/sh2645.json",
+      "bytes": 10374,
+      "sha256": "baaac1bbf33f140c69df2383c10302dbce9d846511a2d014c60c2211b7df2e44"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 5362,
+      "path": "poets/moulavi/shams/ghazalsh/sh2738.json",
+      "bytes": 9023,
+      "sha256": "0dbff720f74b7e28196329933e366f655b3ee81bf5099ed3c9dab62c35855ed1"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 5514,
+      "path": "poets/moulavi/shams/ghazalsh/sh2890.json",
+      "bytes": 17293,
+      "sha256": "71de02cf2d304c1860055aa0d0db9e5b64cb07fa7f74502b048401d75071f81b"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 5567,
+      "path": "poets/moulavi/shams/ghazalsh/sh2943.json",
+      "bytes": 12447,
+      "sha256": "6faad20a549d26594af5b8c3b20ce1fad3f1bebc1bee1f7d8fd9935bd65a304c"
+    },
+    {
+      "poet_id": 5,
+      "category_id": 99,
+      "id": 5773,
+      "path": "poets/moulavi/shams/ghazalsh/sh3149.json",
+      "bytes": 11337,
+      "sha256": "b710d33f02ca35339454d68fe5f452d1a08984e282588fb857bd796c5bce65d0"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 52503,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh306.json",
+      "bytes": 11080,
+      "sha256": "799bd95c4269582040f020b387e0073cf43a27f4ab5fc832555c10e5594b2b5c"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 52754,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh557.json",
+      "bytes": 12323,
+      "sha256": "3d28ebd94af59052829ab8ac5c06349dac8cd121ea4c36c3704201d85c796636"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 53082,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh885.json",
+      "bytes": 13377,
+      "sha256": "d5e20cddc77dc9e7b5e2c2418f501549f768c4b755bbc26fd8631b6235f87211"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 53159,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh962.json",
+      "bytes": 14668,
+      "sha256": "c3532691fb580cdbfb4f6775407b004bf1ed84073dc8fe0df85ad7051ef01be1"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 53482,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh1285.json",
+      "bytes": 13366,
+      "sha256": "b1fa6dd61e9470c7adb360effbd9acff7f7617cab78039c550aaf7e3ec5f3455"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 54028,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh1831.json",
+      "bytes": 12823,
+      "sha256": "644c0e3d3ae23788b9718d8239c8c198ef24d449e51ee52a23f981ad4bb688e3"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 55082,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh2884.json",
+      "bytes": 11011,
+      "sha256": "7ca878d739948ef084be80604faa0f7bc53790c191fd3795b6a82796d89d0c4e"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 55111,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh2913.json",
+      "bytes": 17441,
+      "sha256": "6bc202ecdc87f5aa0103a8d813ce07cd01ade97687c492d34a507d20b1b9f20d"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 55281,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh3083.json",
+      "bytes": 14013,
+      "sha256": "5a6c8b034f7aef8ef92596e0b53423f3308d252d6fe1a8a2965ef8877c6303c7"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 56157,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh3959.json",
+      "bytes": 12490,
+      "sha256": "2947aa2c8c637bf95cb51cf9c494b6b4655d828e7d2dad38b0c9660dda7ffb4d"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 56259,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh4061.json",
+      "bytes": 13236,
+      "sha256": "e3fb4695e65949f961af5c73e927dd6ae75d122305fbcdc02c2b6d1f2a302ebb"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 56579,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh4381.json",
+      "bytes": 11766,
+      "sha256": "099f569a5eb033a559cce012e2601a92b11e7086263bdae8161f676f7024abf5"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 56918,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh4720.json",
+      "bytes": 9038,
+      "sha256": "6bde62a4963e6f79fde0e25497294bc9bcf6b678f6ffc71caf51831aa2398b14"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 57277,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh5079.json",
+      "bytes": 10794,
+      "sha256": "ea8fe7d33523e5c7baa9b3d8ae55311c15d4745d006052099157a1f6fddb4639"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 57333,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh5135.json",
+      "bytes": 10467,
+      "sha256": "253181dbc0c4cd5443ce186b843597e5210b28c53019734c3aab4324357fef5a"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 57777,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh5579.json",
+      "bytes": 13141,
+      "sha256": "f0da2dcc3ecae89ab3e118a15e8a55c30374e707276ccd30afaec7b9a6113bd0"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 57983,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh5785.json",
+      "bytes": 12638,
+      "sha256": "d54c0064bc204a9c38555997b68aadd6aa4995597030a918c37734bfcb8e04da"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 58190,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh5992.json",
+      "bytes": 17027,
+      "sha256": "b14c3fbd8a2ca6b1ddb69c74a0fe8fe4e73db843a6b00e7b1c690aa9ad4a2650"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 58227,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh6029.json",
+      "bytes": 18807,
+      "sha256": "ac8fa2bb78c5981213a524f2f0c5c9428921a0a3c475643a0727b9af2d0488d4"
+    },
+    {
+      "poet_id": 22,
+      "category_id": 1852,
+      "id": 58502,
+      "path": "poets/saeb/divan-saeb/ghazalkasa/sh6304.json",
+      "bytes": 12666,
+      "sha256": "84280121db2c75cb71ba80e1a80759ae70353e9daf20eda0f9b6e928161b4417"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 40705,
+      "path": "poets/bidel/ghazalbi/sh71.json",
+      "bytes": 16171,
+      "sha256": "60588a9860003d92f188aaa66221d710667401b027ec2b9e9e0db25f539981c7"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 40728,
+      "path": "poets/bidel/ghazalbi/sh94.json",
+      "bytes": 13250,
+      "sha256": "ea9a289cf249f11b8046fe62529dda01a7e7ac94581c6bea83bb51c74b19caaa"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 40805,
+      "path": "poets/bidel/ghazalbi/sh171.json",
+      "bytes": 14550,
+      "sha256": "018b2e2a7302d6559ff950aad17a517a72bf554bd7e7d1b1a73f77c8d5ca5624"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 40949,
+      "path": "poets/bidel/ghazalbi/sh315.json",
+      "bytes": 11666,
+      "sha256": "6e8b0daccdf09926cf82f0a3f8458a88d228f73f1a24eb20ca4da1d36ad117cf"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 41167,
+      "path": "poets/bidel/ghazalbi/sh531.json",
+      "bytes": 11718,
+      "sha256": "910c95addc69df1ea15aa000f5936701575e5a97ea18f07569b9a858f319a603"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 41216,
+      "path": "poets/bidel/ghazalbi/sh580.json",
+      "bytes": 16224,
+      "sha256": "e71813692d1892f19b0ae933e9e17e41db03523da49f51ab2ead08a27f5f2d38"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 41839,
+      "path": "poets/bidel/ghazalbi/sh747.json",
+      "bytes": 15655,
+      "sha256": "327822fc155a842a82bf1850fabfde4ae4761a72a8c9f503fb509bcb28eed391"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 41939,
+      "path": "poets/bidel/ghazalbi/sh847.json",
+      "bytes": 13970,
+      "sha256": "10d043e710e6611b8dbb87844ec737649c5cb74e4f44eaf71775807b8bc75add"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 41955,
+      "path": "poets/bidel/ghazalbi/sh863.json",
+      "bytes": 19728,
+      "sha256": "fc6cc6fa2679ab7c72365f80206585766557a5cd0907081da65e84cf67f61fa4"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 42171,
+      "path": "poets/bidel/ghazalbi/sh1075.json",
+      "bytes": 17031,
+      "sha256": "6fa516e1ac4b97d9db0defca005948f1be0570da1484c2ac720e3c9287a51061"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 42259,
+      "path": "poets/bidel/ghazalbi/sh1163.json",
+      "bytes": 15740,
+      "sha256": "476a147b33afc865da83b043f38f71173c42f6f7e227e57a4d159ded64f99c05"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 42422,
+      "path": "poets/bidel/ghazalbi/sh1325.json",
+      "bytes": 18637,
+      "sha256": "c4a1489a6acd71cc2fa73697c7f249842a8e3c81b7c4da9e3acd8bcce1ece969"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 43464,
+      "path": "poets/bidel/ghazalbi/sh1396.json",
+      "bytes": 15536,
+      "sha256": "4ffbf15d29770d153c752c4dc0cd9652ed8dc5d0837eff80bbcdfff6bc76dbb8"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 43653,
+      "path": "poets/bidel/ghazalbi/sh1585.json",
+      "bytes": 14660,
+      "sha256": "7f2666cd74f07840b985a2246afc468365123f714d99c64de0c86d1dc61fb72d"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 43697,
+      "path": "poets/bidel/ghazalbi/sh1629.json",
+      "bytes": 12563,
+      "sha256": "ad955540bc5cacafb2d40b7809771ad7b2c22c9918e2fbd45c57feb99cb029a6"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 43710,
+      "path": "poets/bidel/ghazalbi/sh1642.json",
+      "bytes": 12785,
+      "sha256": "a1d63fecc944e3f72bf13a5c48ccc06348b73b83af042d461ed7fc93caaa15e5"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 44170,
+      "path": "poets/bidel/ghazalbi/sh2102.json",
+      "bytes": 15038,
+      "sha256": "79923ed1ce31ede76e476708a22e6b95582b2f5e04b2790ccd814bc56e2cc4da"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 44414,
+      "path": "poets/bidel/ghazalbi/sh2346.json",
+      "bytes": 16370,
+      "sha256": "9f617736468cec7f221993f99704920b49f197744f6ce20abee74b87061da74d"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 44546,
+      "path": "poets/bidel/ghazalbi/sh2478.json",
+      "bytes": 18490,
+      "sha256": "73e0156a5b6934593efbd53045a8c34b5c71baa2dd9c746ca3ffeb46b79e87d6"
+    },
+    {
+      "poet_id": 43,
+      "category_id": 1401,
+      "id": 44613,
+      "path": "poets/bidel/ghazalbi/sh2545.json",
+      "bytes": 14178,
+      "sha256": "dbd39ecc0cbc0e19b04531f59f45c8e1f2eb14290157557ed08c9d31681d03d1"
+    }
+  ],
+  "raw_text_redistribution": "Not approved by this audit; local inspection only"
+}

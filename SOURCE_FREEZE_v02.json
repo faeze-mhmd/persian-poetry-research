@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-25T13:59:26.375752+00:00",
+  "source_sha256": {
+    "poetry_core.py": "0175da27ea1184748e0aa8049150625513198dd69cc8249543dc5a23773cf8b0",
+    "test_poetry.py": "18d95727560d689b6f51a8579c9ff86e9d72bceb60819bc3ecb93286a2a71eee",
+    "prepare_data.py": "ad836d1296e395e1181af64ce127939c2ba5a83378058e149985aba5bc4dff7f",
+    "run_models.py": "4ad05fa63f92faa5f7aa1878c3a42047c01ab0e2125426d56bb5de0ca9caaeee",
+    "final_evaluate.py": "58f08e5dffbc4eedfecd17e212ce16b122f4539d06ae3422b06ea9087dc6d1ee",
+    "text_experiment_v02.json": "1d1f449afd9d3cebb67ec56ed4d91012840a285aa1c0a5a323cf19adfc7f5190"
+  },
+  "dataset_local_sha256": "e36634d6e4d99d859e5b2bb7c2e0bcc168752c9a523d2d22914407fdd3feae7d",
+  "split_sha256": "3bc19ff329f98323ce13f34df3c87486a439fbda11866921f3f134d8586008e9",
+  "corpus_manifest_sha256": "0bbbe2b3482f18a0c41a049cf38c2fdd10a0733099d2191242830c4db06d4199",
+  "environment": {
+    "python": "3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "numpy": "1.26.4"
+  },
+  "raw_publication": "not cleared"
+}

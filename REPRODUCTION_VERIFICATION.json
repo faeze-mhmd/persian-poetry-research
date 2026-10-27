@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "fresh_directory": "reproduction_v02_fresh",
+  "commands_actually_executed": 5,
+  "same_installed_python_environment": true,
+  "fresh_machine_not_tested": true,
+  "all_36_test_predictions_and_metrics_identical": true,
+  "bootstrap_and_primary_identical": true,
+  "original_artifacts_unchanged": true,
+  "seconds": 49.80916899998556
+}

@@ -1,0 +1,2506 @@
+{
+  "version": "poetry_text_v0.2",
+  "revision": "86455ef602c55f64282ce9a0fba4b1084153b5a7",
+  "records": [
+    {
+      "id": 2130,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2136,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2139,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2144,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2152,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2156,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2158,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2167,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2172,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2175,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2179,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2186,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2189,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2193,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2201,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2209,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2213,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2216,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2232,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2234,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2238,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2239,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2251,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2252,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2263,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2268,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2273,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2277,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2278,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2279,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2288,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2289,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2296,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2299,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2302,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2303,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2304,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2307,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2310,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2315,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2317,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2318,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2337,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2343,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2344,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2350,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2351,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2360,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2361,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2370,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2371,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2374,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2383,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2385,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2390,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2391,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2402,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2407,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2408,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2411,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2412,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2416,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2437,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2442,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2443,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2447,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2450,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2456,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2459,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2465,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2471,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2475,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2481,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2486,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2488,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2499,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2506,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2509,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2514,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2516,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2519,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2525,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2526,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2531,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2536,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2538,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2542,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2554,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2555,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2559,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2569,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2573,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2576,
+      "poet": 2,
+      "split": "validation"
+    },
+    {
+      "id": 2585,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2588,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2592,
+      "poet": 2,
+      "split": "test"
+    },
+    {
+      "id": 2593,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2599,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2603,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2617,
+      "poet": 2,
+      "split": "train"
+    },
+    {
+      "id": 2636,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 2655,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 2740,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 2773,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 2842,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 2999,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3001,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3014,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 3024,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3028,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3100,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3124,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 3147,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3157,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3217,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3221,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3295,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 3389,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 3420,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3557,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3572,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3595,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3632,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3634,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 3646,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3648,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3659,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 3671,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3677,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3716,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3739,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3813,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3817,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 3826,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 3894,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3903,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 3911,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 3934,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4019,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 4026,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4042,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 4056,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 4080,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 4116,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 4136,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4140,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 4188,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 4259,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 4293,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4299,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4314,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4343,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4443,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4481,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 4502,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4531,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4534,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 4540,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 4708,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4727,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4799,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 4885,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4920,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4929,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 4939,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 5005,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 5023,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 5047,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 5048,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 5084,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5093,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 5108,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5128,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 5135,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5150,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5159,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5160,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 5181,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5276,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5280,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 5316,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 5369,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5377,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 5420,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 5425,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 5440,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5457,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5461,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 5476,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 5503,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5509,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5525,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5560,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5571,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5607,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5648,
+      "poet": 5,
+      "split": "validation"
+    },
+    {
+      "id": 5663,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5692,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5770,
+      "poet": 5,
+      "split": "train"
+    },
+    {
+      "id": 5842,
+      "poet": 5,
+      "split": "test"
+    },
+    {
+      "id": 9324,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9326,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9332,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9340,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9341,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9344,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9350,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9351,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9356,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9359,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9371,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9373,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9382,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9394,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9404,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9409,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9414,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9416,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9417,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9427,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9438,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9448,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9463,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9470,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9472,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9481,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9495,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9502,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9509,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9523,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9532,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9546,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9548,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9551,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9561,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9569,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9574,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9576,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9592,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9602,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9625,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9626,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9633,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9642,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9644,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9646,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9650,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9653,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9655,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9659,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9660,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9669,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9670,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9676,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9679,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9682,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9685,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9692,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9702,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9715,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9716,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9723,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9733,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9734,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9735,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9737,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9742,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9744,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9750,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9757,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9763,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9765,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9773,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9777,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9778,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9788,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9805,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9811,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9823,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9827,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9832,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9833,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9852,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9858,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9864,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9866,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9879,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9882,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9885,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9900,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9917,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9920,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9923,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9941,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9948,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9949,
+      "poet": 7,
+      "split": "test"
+    },
+    {
+      "id": 9950,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9951,
+      "poet": 7,
+      "split": "validation"
+    },
+    {
+      "id": 9952,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 9957,
+      "poet": 7,
+      "split": "train"
+    },
+    {
+      "id": 40697,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 40757,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 40787,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 40811,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 40847,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 40879,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 40952,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 40963,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 40973,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 40987,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 40998,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 41026,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 41032,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 41074,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 41082,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 41090,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 41153,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 41177,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 41184,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 41207,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 41208,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 41218,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 41775,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 41845,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 41854,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 41858,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 41882,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 41885,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 41886,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 41912,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 41996,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 42004,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 42043,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 42045,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 42055,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 42088,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 42090,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 42103,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 42114,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 42121,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 42265,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 42271,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 42301,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 42342,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 42348,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 42408,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 42466,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43467,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43518,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 43521,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43522,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43533,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43560,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43605,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43633,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43651,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 43658,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43670,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43686,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43720,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 43772,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 43932,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43947,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 43988,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44014,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44076,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 44085,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44094,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 44132,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 44144,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 44182,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 44228,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 44232,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44237,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44261,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44314,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44339,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44346,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 44360,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44382,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44420,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 44422,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 44457,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 44490,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44497,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44503,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44532,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44603,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44624,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44640,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44665,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44669,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 44690,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44754,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 44790,
+      "poet": 43,
+      "split": "validation"
+    },
+    {
+      "id": 44795,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44798,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44842,
+      "poet": 43,
+      "split": "test"
+    },
+    {
+      "id": 44844,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 44871,
+      "poet": 43,
+      "split": "train"
+    },
+    {
+      "id": 52282,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 52308,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 52312,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 52317,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 52349,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 52351,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 52697,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 52717,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 52756,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 52837,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 52966,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 52979,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 52999,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 53105,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 53246,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 53398,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 53403,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 53673,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 53730,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 53755,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 53863,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 53903,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 54141,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 54163,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 54168,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 54182,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 54213,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 54257,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 54335,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 54389,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 54437,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 54464,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 54549,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 54556,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 54660,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 54693,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 54998,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 55073,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 55092,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 55151,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 55176,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 55194,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 55453,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 55551,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 55664,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 55820,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 55917,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 55971,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56000,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56021,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 56026,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 56107,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56151,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56240,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 56336,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 56388,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56441,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56451,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56490,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56505,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56541,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56638,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56670,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 56678,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 56734,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56743,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56885,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 56909,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 57126,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 57176,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 57180,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 57231,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 57272,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 57328,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 57406,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 57511,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 57755,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 57812,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 57847,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 57893,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 57900,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 57959,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 57962,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 58000,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 58058,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 58256,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 58258,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 58332,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 58356,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 58357,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 58402,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 58509,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 58669,
+      "poet": 22,
+      "split": "validation"
+    },
+    {
+      "id": 58694,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 58736,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 58929,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 58958,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 59019,
+      "poet": 22,
+      "split": "test"
+    },
+    {
+      "id": 59097,
+      "poet": 22,
+      "split": "train"
+    },
+    {
+      "id": 59181,
+      "poet": 22,
+      "split": "train"
+    }
+  ]
+}

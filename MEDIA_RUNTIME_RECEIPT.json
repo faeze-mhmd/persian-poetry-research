@@ -1,0 +1,42 @@
+[
+  {
+    "package": "tesserocr",
+    "version": "2.12.0",
+    "bytes": 23145271,
+    "filename": "tesserocr-2.12.0-cp311-cp311-win_amd64.whl",
+    "sha256": "2fb4ae548c3c8fe1d9d4f86e135c558eb32a439897130ba9c0cf28a6eb4f4eda",
+    "source": "https://files.pythonhosted.org/packages/c4/2a/34402d82dfa4a7661cb8d459ac6c8d98cb7ab2e5e07b68cf46edc40bd0fe/tesserocr-2.12.0-cp311-cp311-win_amd64.whl",
+    "transport": "configured PyPI mirror for tesserocr; bytes checked against official PyPI SHA256",
+    "install": "project-local wheel extraction; runtime import validation required"
+  },
+  {
+    "package": "vosk",
+    "version": "0.3.45",
+    "bytes": 13997596,
+    "filename": "vosk-0.3.45-py3-none-win_amd64.whl",
+    "sha256": "6994ddc68556c7e5730c3b6f6bad13320e3519b13ce3ed2aa25a86724e7c10ac",
+    "source": "https://files.pythonhosted.org/packages/c0/4c/deb0861f7da9696f8a255f1731bb73e9412cca29c4b3888a3fcb2a930a59/vosk-0.3.45-py3-none-win_amd64.whl",
+    "transport": "configured PyPI mirror for tesserocr; bytes checked against official PyPI SHA256",
+    "install": "project-local wheel extraction; runtime import validation required"
+  },
+  {
+    "package": "arabic-reshaper",
+    "version": "3.0.0",
+    "bytes": 20364,
+    "filename": "arabic_reshaper-3.0.0-py3-none-any.whl",
+    "sha256": "3f71d5034bb694204a239a6f1ebcf323ac3c5b059de02259235e2016a1a5e2dc",
+    "source": "https://files.pythonhosted.org/packages/44/fb/e20b45d81d74d810b01bff408baf8af04abf1d55a1a289c8395ad0919a7c/arabic_reshaper-3.0.0-py3-none-any.whl",
+    "transport": "configured PyPI mirror for tesserocr; bytes checked against official PyPI SHA256",
+    "install": "project-local wheel extraction; runtime import validation required"
+  },
+  {
+    "package": "python-bidi",
+    "version": "0.6.7",
+    "bytes": 161282,
+    "filename": "python_bidi-0.6.7-cp311-cp311-win_amd64.whl",
+    "sha256": "898db0ea3e4aaa95b7fecba02a7560dfbf368f9d85053f2875f6d610c4d4ec2c",
+    "source": "https://files.pythonhosted.org/packages/68/84/06999dc54ea047fe33209af7150df4202ab7ad52deeb66b2c2040ac07884/python_bidi-0.6.7-cp311-cp311-win_amd64.whl",
+    "transport": "configured PyPI mirror for tesserocr; bytes checked against official PyPI SHA256",
+    "install": "project-local wheel extraction; runtime import validation required"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "tests": 9,
+  "seconds": 8.256,
+  "source_sha256": "b304187e74fbf9dfe2bda1cbdb47aa3e6184bb8c3b9017d51bf64eb08362fd81",
+  "real_http_models_retrieval": true,
+  "ocr_engine_mocked_not_benchmarked": true,
+  "actual_asr_not_run": true
+}

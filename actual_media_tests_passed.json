@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "tests": 7,
+  "seconds": 3.724,
+  "source_sha256": "62078d97de3e09fa3963790419ec02090ae88c8fe677bd2c2841ffefa784e728",
+  "actual_tesseract_executed": true,
+  "actual_vosk_executed": true,
+  "empty_ocr_diagnostic_recorded": true
+}

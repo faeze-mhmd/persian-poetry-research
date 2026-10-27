@@ -1,0 +1,988 @@
+{
+  "protocol_sha256": "3094882118b7356b100300110be8573a7bfcc916cfc5a77e8945e8bd7a3f49ac",
+  "results": [
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 2509,
+      "poet_id": 2,
+      "metrics": {
+        "cer": 0.015873015873015872,
+        "wer": 0.07142857142857142,
+        "char_edits": 1,
+        "reference_chars": 63,
+        "word_edits": 1,
+        "reference_words": 14,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.11014730000169948,
+      "image": {
+        "font_size": 36,
+        "sha256": "5d04e76fb024c5b45dd4204494e03a148ce1abf129019579c2d7546c1072bf1c"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 2509,
+      "poet_id": 2,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "char_edits": 0,
+        "reference_chars": 63,
+        "word_edits": 0,
+        "reference_words": 14,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.057907899987185374,
+      "image": {
+        "font_size": 36,
+        "sha256": "9652a2d169491cbf02c2fcb55b3d021e75db8f4ba5eb4cec1156bbf09782a84c"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 2299,
+      "poet_id": 2,
+      "metrics": {
+        "cer": 0.5254237288135594,
+        "wer": 0.5833333333333334,
+        "char_edits": 31,
+        "reference_chars": 59,
+        "word_edits": 7,
+        "reference_words": 12,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.039535799995064735,
+      "image": {
+        "font_size": 36,
+        "sha256": "f865318124a74cb2985e06317dd68dabe67bc99da88dcda1f025ef53611b6f22"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 2299,
+      "poet_id": 2,
+      "metrics": {
+        "cer": 0.5254237288135594,
+        "wer": 0.5833333333333334,
+        "char_edits": 31,
+        "reference_chars": 59,
+        "word_edits": 7,
+        "reference_words": 12,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05513470000005327,
+      "image": {
+        "font_size": 36,
+        "sha256": "dcffedb5b56e69c7d85c55e8b2a1084c8ecac38340dc273159dc54887a11ebc0"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 2251,
+      "poet_id": 2,
+      "metrics": {
+        "cer": 1.0,
+        "wer": 1.0,
+        "char_edits": 59,
+        "reference_chars": 59,
+        "word_edits": 13,
+        "reference_words": 13,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": null,
+      "seconds": 0.03141309999045916,
+      "image": {
+        "font_size": 36,
+        "sha256": "a97ee3bfc01789255a549f7612529db61689b6645618dec647a111d355384e10"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 2251,
+      "poet_id": 2,
+      "metrics": {
+        "cer": 0.4576271186440678,
+        "wer": 0.46153846153846156,
+        "char_edits": 27,
+        "reference_chars": 59,
+        "word_edits": 6,
+        "reference_words": 13,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.046472700021695346,
+      "image": {
+        "font_size": 36,
+        "sha256": "1f87d2cead072a2fe00776a49be12f96231983b099c4289f75c4fd9f380ce29e"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 2536,
+      "poet_id": 2,
+      "metrics": {
+        "cer": 0.5151515151515151,
+        "wer": 0.5294117647058824,
+        "char_edits": 34,
+        "reference_chars": 66,
+        "word_edits": 9,
+        "reference_words": 17,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.04571209999267012,
+      "image": {
+        "font_size": 36,
+        "sha256": "3480ea3bbb9b5a88322a46f783fc7cbbf1292b17db693a68f9b89432abbd483a"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 2536,
+      "poet_id": 2,
+      "metrics": {
+        "cer": 0.015151515151515152,
+        "wer": 0.058823529411764705,
+        "char_edits": 1,
+        "reference_chars": 66,
+        "word_edits": 1,
+        "reference_words": 17,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.051707199978409335,
+      "image": {
+        "font_size": 36,
+        "sha256": "b02bf90a269b4034812c06831b0d1c097e0533b657a620bc580e6809eff7b624"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 3124,
+      "poet_id": 5,
+      "metrics": {
+        "cer": 0.4782608695652174,
+        "wer": 0.45454545454545453,
+        "char_edits": 22,
+        "reference_chars": 46,
+        "word_edits": 5,
+        "reference_words": 11,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.04020010001841001,
+      "image": {
+        "font_size": 36,
+        "sha256": "df6a03608347cd990c80070c39aad572a01c6935f16f22a3abda2e93b758a308"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 3124,
+      "poet_id": 5,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "char_edits": 0,
+        "reference_chars": 46,
+        "word_edits": 0,
+        "reference_words": 11,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05126949999248609,
+      "image": {
+        "font_size": 36,
+        "sha256": "3803742924c57f4215aaa2bb6235b3ce7727efaaf747975eb20ca91c30bea9d7"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 3014,
+      "poet_id": 5,
+      "metrics": {
+        "cer": 1.0,
+        "wer": 1.0,
+        "char_edits": 67,
+        "reference_chars": 67,
+        "word_edits": 17,
+        "reference_words": 17,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": null,
+      "seconds": 0.033874900022055954,
+      "image": {
+        "font_size": 36,
+        "sha256": "7c3fe778e47dbe4e32e1a4e9b8b02bb6366fbb06320591ec5846734367c25d95"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 3014,
+      "poet_id": 5,
+      "metrics": {
+        "cer": 0.5671641791044776,
+        "wer": 0.6470588235294118,
+        "char_edits": 38,
+        "reference_chars": 67,
+        "word_edits": 11,
+        "reference_words": 17,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05001929998979904,
+      "image": {
+        "font_size": 36,
+        "sha256": "2db2a111d42aee79d92573ab6b6f73839ee955fbb02d66c31183843971461f7f"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 3826,
+      "poet_id": 5,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "char_edits": 0,
+        "reference_chars": 67,
+        "word_edits": 0,
+        "reference_words": 18,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05377349999616854,
+      "image": {
+        "font_size": 36,
+        "sha256": "8f80d36b8c278cd38fa99376d5e227ee31a94d7a025b22af652666a2281b88bb"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 3826,
+      "poet_id": 5,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "char_edits": 0,
+        "reference_chars": 67,
+        "word_edits": 0,
+        "reference_words": 18,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05745039999601431,
+      "image": {
+        "font_size": 36,
+        "sha256": "f6b70e502e373f99c68e62df78f34b5916cfb59528f73be713c9bbe2aaa0d758"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 2636,
+      "poet_id": 5,
+      "metrics": {
+        "cer": 0.5185185185185185,
+        "wer": 0.5652173913043478,
+        "char_edits": 42,
+        "reference_chars": 81,
+        "word_edits": 13,
+        "reference_words": 23,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05173129998729564,
+      "image": {
+        "font_size": 36,
+        "sha256": "a23422423412401ba62207337562323170a7f634a17562a9da4917e596897028"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 2636,
+      "poet_id": 5,
+      "metrics": {
+        "cer": 0.08641975308641975,
+        "wer": 0.34782608695652173,
+        "char_edits": 7,
+        "reference_chars": 81,
+        "word_edits": 8,
+        "reference_words": 23,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05329889999120496,
+      "image": {
+        "font_size": 36,
+        "sha256": "17e1c5f5314156834944317ba274b50cabb21f732cbcf58335855f9a0b902880"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 9326,
+      "poet_id": 7,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "char_edits": 0,
+        "reference_chars": 66,
+        "word_edits": 0,
+        "reference_words": 16,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.04844529999536462,
+      "image": {
+        "font_size": 36,
+        "sha256": "624f9c276eed7c7dd2fa0db763c4664f02b893ace97815ecc781ab598ababc37"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 9326,
+      "poet_id": 7,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "char_edits": 0,
+        "reference_chars": 66,
+        "word_edits": 0,
+        "reference_words": 16,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05280020000645891,
+      "image": {
+        "font_size": 36,
+        "sha256": "6fb87d34afafca3c0c083df3ca7abd8fb1d669108c6f05ab788bd3886e2b1963"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 9949,
+      "poet_id": 7,
+      "metrics": {
+        "cer": 0.5,
+        "wer": 0.5,
+        "char_edits": 25,
+        "reference_chars": 50,
+        "word_edits": 6,
+        "reference_words": 12,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.04150570000638254,
+      "image": {
+        "font_size": 36,
+        "sha256": "09d78eedc7c2f4c36563a40d4165c98798de0f580bd447f2126d9f665d9838ec"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 9949,
+      "poet_id": 7,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "char_edits": 0,
+        "reference_chars": 50,
+        "word_edits": 0,
+        "reference_words": 12,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.050169399997685105,
+      "image": {
+        "font_size": 36,
+        "sha256": "8d348b28c548f5e139e7297790b64275ed27235357742803c88853f2c0425cee"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 9885,
+      "poet_id": 7,
+      "metrics": {
+        "cer": 0.016129032258064516,
+        "wer": 0.07692307692307693,
+        "char_edits": 1,
+        "reference_chars": 62,
+        "word_edits": 1,
+        "reference_words": 13,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.04811099998187274,
+      "image": {
+        "font_size": 36,
+        "sha256": "baaec9361527fe6f5a87cc4c5d2f5a1aac512e566945e276594a7f3874c4d804"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 9885,
+      "poet_id": 7,
+      "metrics": {
+        "cer": 0.016129032258064516,
+        "wer": 0.07692307692307693,
+        "char_edits": 1,
+        "reference_chars": 62,
+        "word_edits": 1,
+        "reference_words": 13,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05253640000591986,
+      "image": {
+        "font_size": 36,
+        "sha256": "b7ab08fa96c5f7ff3707516390a7022a07ddd16e66df60731ad2aac678627dcf"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 9788,
+      "poet_id": 7,
+      "metrics": {
+        "cer": 0.5217391304347826,
+        "wer": 0.5294117647058824,
+        "char_edits": 36,
+        "reference_chars": 69,
+        "word_edits": 9,
+        "reference_words": 17,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.03848650000873022,
+      "image": {
+        "font_size": 36,
+        "sha256": "1a632171b7a9b3654e6171a7e5e22d1c017004913e53dcac7404726302b5ee1b"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 9788,
+      "poet_id": 7,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "char_edits": 0,
+        "reference_chars": 69,
+        "word_edits": 0,
+        "reference_words": 17,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05056159998639487,
+      "image": {
+        "font_size": 36,
+        "sha256": "c93ac5bc321eb91a60fdcf07af871f6413c70fae81ae4bfe05b01cb4200f24c1"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 53863,
+      "poet_id": 22,
+      "metrics": {
+        "cer": 0.49206349206349204,
+        "wer": 0.4666666666666667,
+        "char_edits": 31,
+        "reference_chars": 63,
+        "word_edits": 7,
+        "reference_words": 15,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.03791250000358559,
+      "image": {
+        "font_size": 36,
+        "sha256": "ec38f61482b48ba005342f4b6e2b8d7f9c6d90f8c4598e615c900ba81aa350f5"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 53863,
+      "poet_id": 22,
+      "metrics": {
+        "cer": 0.5238095238095238,
+        "wer": 0.5333333333333333,
+        "char_edits": 33,
+        "reference_chars": 63,
+        "word_edits": 8,
+        "reference_words": 15,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05039380001835525,
+      "image": {
+        "font_size": 36,
+        "sha256": "ab6bb90bf0cb14979f2845c95243d3cb94832d6307cc8399429e271f687aade9"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 59019,
+      "poet_id": 22,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "char_edits": 0,
+        "reference_chars": 57,
+        "word_edits": 0,
+        "reference_words": 13,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.055360900005325675,
+      "image": {
+        "font_size": 36,
+        "sha256": "448908954554ce08df3eb22f7e1d052416617f4cf388cde88d0bc63afa33a8ba"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 59019,
+      "poet_id": 22,
+      "metrics": {
+        "cer": 0.017543859649122806,
+        "wer": 0.07692307692307693,
+        "char_edits": 1,
+        "reference_chars": 57,
+        "word_edits": 1,
+        "reference_words": 13,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.04819490000954829,
+      "image": {
+        "font_size": 36,
+        "sha256": "dbb2bfb441a26e70dfd9032dc8e71bac7319c601703ae26f24dd4f5aeb7be196"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 54168,
+      "poet_id": 22,
+      "metrics": {
+        "cer": 0.46153846153846156,
+        "wer": 0.4666666666666667,
+        "char_edits": 30,
+        "reference_chars": 65,
+        "word_edits": 7,
+        "reference_words": 15,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.04205069999443367,
+      "image": {
+        "font_size": 36,
+        "sha256": "b3d44c15ac2b163e271735e394082b772ee23682a3c8330383fdb04c2a31fec0"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 54168,
+      "poet_id": 22,
+      "metrics": {
+        "cer": 0.46153846153846156,
+        "wer": 0.4666666666666667,
+        "char_edits": 30,
+        "reference_chars": 65,
+        "word_edits": 7,
+        "reference_words": 15,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.04239899999811314,
+      "image": {
+        "font_size": 36,
+        "sha256": "e6dbfc1983b07061c04d852e6dfd3e96c16d5ca33fe15357aed08548250eb4d3"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 57755,
+      "poet_id": 22,
+      "metrics": {
+        "cer": 0.014285714285714285,
+        "wer": 0.058823529411764705,
+        "char_edits": 1,
+        "reference_chars": 70,
+        "word_edits": 1,
+        "reference_words": 17,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05448259998229332,
+      "image": {
+        "font_size": 36,
+        "sha256": "f8af500c2e2a2122d0858b1e2307d677f75e89d6ad5afa93ecefc7b0cf7db997"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 57755,
+      "poet_id": 22,
+      "metrics": {
+        "cer": 0.014285714285714285,
+        "wer": 0.058823529411764705,
+        "char_edits": 1,
+        "reference_chars": 70,
+        "word_edits": 1,
+        "reference_words": 17,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.053294000012101606,
+      "image": {
+        "font_size": 36,
+        "sha256": "ba1c95c7d52de99e954586a1dc175488eaa60681d12cb8e7796c879f7b7c662c"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 42348,
+      "poet_id": 43,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "char_edits": 0,
+        "reference_chars": 74,
+        "word_edits": 0,
+        "reference_words": 18,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.06066749998717569,
+      "image": {
+        "font_size": 36,
+        "sha256": "4500af1c9dafa7a16989ba2dc8ced4bd2ecc396b341881721514b1f6613ecdf1"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 42348,
+      "poet_id": 43,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "char_edits": 0,
+        "reference_chars": 74,
+        "word_edits": 0,
+        "reference_words": 18,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05342690000543371,
+      "image": {
+        "font_size": 36,
+        "sha256": "6c4607b3d5fbfc55fbf1f234c8b769a450ca9a59f61cc2311d12559bbae4152a"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 44842,
+      "poet_id": 43,
+      "metrics": {
+        "cer": 0.5068493150684932,
+        "wer": 0.5333333333333333,
+        "char_edits": 37,
+        "reference_chars": 73,
+        "word_edits": 8,
+        "reference_words": 15,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.039858900010585785,
+      "image": {
+        "font_size": 36,
+        "sha256": "2d273de894ab71063f31d8e524460e94c046228df81c22d77f9ea7bb07e79dd2"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 44842,
+      "poet_id": 43,
+      "metrics": {
+        "cer": 0.0,
+        "wer": 0.0,
+        "char_edits": 0,
+        "reference_chars": 73,
+        "word_edits": 0,
+        "reference_words": 15,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.05933360001654364,
+      "image": {
+        "font_size": 36,
+        "sha256": "19bdbb25ad55ff905c8002b4ee7bfa3ee052ddeda19f29d1b845471ae9b88fa4"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 41858,
+      "poet_id": 43,
+      "metrics": {
+        "cer": 1.0,
+        "wer": 1.0,
+        "char_edits": 61,
+        "reference_chars": 61,
+        "word_edits": 13,
+        "reference_words": 13,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": null,
+      "seconds": 0.03370530001120642,
+      "image": {
+        "font_size": 36,
+        "sha256": "f5f643633d9c4c86e9a1cbeaca288ec050661941722e4c2fac5be8b4745660b7"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 41858,
+      "poet_id": 43,
+      "metrics": {
+        "cer": 0.47540983606557374,
+        "wer": 0.46153846153846156,
+        "char_edits": 29,
+        "reference_chars": 61,
+        "word_edits": 6,
+        "reference_words": 13,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.04444550001062453,
+      "image": {
+        "font_size": 36,
+        "sha256": "52bbf06d0888c01c92fc9b67c3c1ae91b5976822ad5ed5fc70f234f2d5c3f898"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "clean",
+      "poem_id": 41207,
+      "poet_id": 43,
+      "metrics": {
+        "cer": 1.0,
+        "wer": 1.0,
+        "char_edits": 61,
+        "reference_chars": 61,
+        "word_edits": 13,
+        "reference_words": 13,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": null,
+      "seconds": 0.03496739998809062,
+      "image": {
+        "font_size": 36,
+        "sha256": "04334dc951b529806d9e481f087171c3845328f22cb15e2ac4763bdc773ce2fb"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "rendered_ocr",
+      "condition": "degraded",
+      "poem_id": 41207,
+      "poet_id": 43,
+      "metrics": {
+        "cer": 0.5409836065573771,
+        "wer": 0.6153846153846154,
+        "char_edits": 33,
+        "reference_chars": 61,
+        "word_edits": 8,
+        "reference_words": 13,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 0.042900800006464124,
+      "image": {
+        "font_size": 36,
+        "sha256": "cf243ec13d7cd7e702d5a5aeb4d1f2c900e0955783839ddcbb20a2c3d8413511"
+      },
+      "reference_origin": "programmatic canonical source rendering"
+    },
+    {
+      "modality": "recitation_asr",
+      "condition": "upstream_timed",
+      "poem_id": 2251,
+      "poet_id": 2,
+      "metrics": {
+        "cer": 0.2542372881355932,
+        "wer": 0.46153846153846156,
+        "char_edits": 15,
+        "reference_chars": 59,
+        "word_edits": 6,
+        "reference_words": 13,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 2.4640727999794763,
+      "audio": {
+        "recitation_id": 206,
+        "poem_id": 2251,
+        "seconds": 12.2,
+        "start_seconds": 10.876,
+        "end_seconds": 23.076,
+        "original_mp3_sha256": "71cb5220660ea47f3e02aee34ff7e23ce5d6c8e2dc768ce899b7dbb032eddd12",
+        "clip_sha256": "02ecc7481911dcb905194264b7b0212e9369703aa2d8e730410ad294227cd8da",
+        "asr_input_float32_sha256": "8e2f8a8b40c4f8d8352693572e08b5777ee68dec334613088e8acef44ee0778e",
+        "mp3_url": "https://i.ganjoor.net/a/2251.mp3",
+        "timing_url": "https://api.ganjoor.net/api/audio/verses/206",
+        "reference_origin": "upstream aligned source, not independently human verified"
+      }
+    },
+    {
+      "modality": "recitation_asr",
+      "condition": "upstream_timed",
+      "poem_id": 2636,
+      "poet_id": 5,
+      "metrics": {
+        "cer": 0.2839506172839506,
+        "wer": 0.6086956521739131,
+        "char_edits": 23,
+        "reference_chars": 81,
+        "word_edits": 14,
+        "reference_words": 23,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 1.2985784000193235,
+      "audio": {
+        "recitation_id": 1749,
+        "poem_id": 2636,
+        "seconds": 17.15,
+        "start_seconds": 16.586,
+        "end_seconds": 33.736,
+        "original_mp3_sha256": "b7a12e5ff71b334cc8fd6a46f7609c0f6087d1f757433e4b04a6d29e558e6822",
+        "clip_sha256": "07aebb6d24853ff28e4134f273e5100e9ab6f42dc32f08982c6c65c8575c5c38",
+        "asr_input_float32_sha256": "1ff592ce2ac18cbd7959de21f315fe037e06c259a25f5898c1b95571d1b52c31",
+        "mp3_url": "https://i.ganjoor.net/a2/2636.mp3",
+        "timing_url": "https://api.ganjoor.net/api/audio/verses/1749",
+        "reference_origin": "upstream aligned source, not independently human verified"
+      }
+    },
+    {
+      "modality": "recitation_asr",
+      "condition": "upstream_timed",
+      "poem_id": 9326,
+      "poet_id": 7,
+      "metrics": {
+        "cer": 0.13636363636363635,
+        "wer": 0.3125,
+        "char_edits": 9,
+        "reference_chars": 66,
+        "word_edits": 5,
+        "reference_words": 16,
+        "normalization": "canonical without author masking"
+      },
+      "target_rank": 1,
+      "seconds": 1.0845498999988195,
+      "audio": {
+        "recitation_id": 6407,
+        "poem_id": 9326,
+        "seconds": 14.0,
+        "start_seconds": 82.736,
+        "end_seconds": 96.736,
+        "original_mp3_sha256": "9dae947fbe2a7a56630d8d08ddcb523705207eb9fa10d2bf74f55ea173d59c70",
+        "clip_sha256": "876c901c4c354f3bcab7d315adb86902df22edf99a6b05f80db435ac3ca57382",
+        "asr_input_float32_sha256": "99919416e5515f9211d7d0a34d6c12ec910289b05f5ccbe9271d4b7482f59f8a",
+        "mp3_url": "https://i.ganjoor.net/a2/9326-sg.mp3",
+        "timing_url": "https://api.ganjoor.net/api/audio/verses/6407",
+        "reference_origin": "upstream aligned source, not independently human verified"
+      }
+    }
+  ],
+  "skips": [
+    {
+      "poem_id": 53863,
+      "reason": "no eligible upstream recitation"
+    },
+    {
+      "poem_id": 41207,
+      "reason": "no eligible upstream recitation"
+    }
+  ],
+  "seconds": 8.958736699976726,
+  "peak_memory": 426381312,
+  "limits": "Rendered OCR and small upstream-aligned audio pilot only; no real-image generalization, no human-verified ASR benchmark, no training or tuning"
+}

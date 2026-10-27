@@ -1,0 +1,7 @@
+{
+  "tests": 12,
+  "result": "PASS",
+  "command": "python -B test_poetry.py",
+  "seconds": 10.896,
+  "source_sha256": "18d95727560d689b6f51a8579c9ff86e9d72bceb60819bc3ecb93286a2a71eee"
+}

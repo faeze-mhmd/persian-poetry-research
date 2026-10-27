@@ -1,0 +1,28 @@
+{
+  "protocol_sha256": "b618f99ae8d8fdc7debffd0d06324cd65eaf1fc44803542ddf9666020ac2a44b",
+  "index_sha256": "65b87690b26918966554daeb250f24419451c248634b71151abeb4501702f36c",
+  "dataset_sha256": "e36634d6e4d99d859e5b2bb7c2e0bcc168752c9a523d2d22914407fdd3feae7d",
+  "query_manifest_sha256": "47cd93dacc33b80714b80867279bc12f21bff47f5d6c612d881aea4b63972815",
+  "queries_local_sha256": "36ad38c1ba19596b93c924c8e96f2c6026e72806701e333131fb0baa0ee132d4",
+  "source_sha256": {
+    "retrieval.py": "94773b106e472562140de82f17b3c3248a37f34620dec4e4ceb309add1c71954",
+    "test_retrieval.py": "3ac242c94f70ef3743d3622ff70fe75d27c80a7ab4b43569467af05d9018e663",
+    "run_retrieval_final.py": "d996d151fa6ee1033c0343ed64b2d78f0d72c59a4739c7d9033d87da118523b1"
+  },
+  "fit_log": [
+    {
+      "family": "word",
+      "seconds": 0.4341847999894526,
+      "features": 10708,
+      "warnings": []
+    },
+    {
+      "family": "char",
+      "seconds": 1.5344687000033446,
+      "features": 50000,
+      "warnings": []
+    }
+  ],
+  "peak_memory": 251691008,
+  "classification_source_freeze_verified": true
+}
